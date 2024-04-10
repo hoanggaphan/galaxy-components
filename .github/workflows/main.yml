@@ -1,0 +1,32 @@
+name: Deploy with Retool
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Login to Retool
+      run: |
+        {
+          echo "";
+          sleep 1;
+          echo "${{secrets.SUB_DOMAIN}}";
+          sleep 1;
+          echo "";
+          echo "${{secrets.CUSTOM_COMPONENT_TOKEN}}";
+          sleep 1;
+          echo "";
+        } | npx retool-ccl login
+
+    - name: Deploy to Retool
+      run: npx retool-ccl deploy
