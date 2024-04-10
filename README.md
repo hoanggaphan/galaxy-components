@@ -1,5 +1,41 @@
-# Retool Custom Components Example Repo
 
-🆕 Retool's new version of custom components are currently in private beta for Cloud users. If you'd like early access, you can request your organization on our [Retool Community](https://community.retool.com/t/custom-components-beta/30715).
+## Installation
 
-📝 To get started, follow the steps in our [full documentation](https://docs.retool.com/private/custom-components-beta).
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install my-project with npm or yarn
+
+```bash
+  npm i
+```
+or
+```bash
+  yarn
+```
+
+## Shared environment variables
+
+To run this project you will need to add the following environment variables to your *.env.development*\
+**Note: these variables are taken from general's retool**
+
+`SUB_DOMAIN`
+
+`RETOOL_CUSTOM_COMPONENT_TOKEN`
+
+
+## Run Locally
+
+```bash
+  npm run dev
+```
+
