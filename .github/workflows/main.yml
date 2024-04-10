@@ -4,7 +4,7 @@ on:
   push:
     branches: [main] # Trigger the workflow on pushes to the main branch
     paths:
-      - 'src/*' # Only self-deploy when the src folder has code changes
+      - 'src/**/*' # Only self-deploy when the src folder has code changes
 
 jobs:
   deploy:
