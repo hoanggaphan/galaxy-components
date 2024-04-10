@@ -1,0 +1,44 @@
+{
+  "name": "galaxy-components",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@tryretool/custom-component-support": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^3.0.3",
+    "postcss-modules": "^6.0.0"
+  },
+  "retoolCustomComponentLibraryConfig": {
+    "name": "GalaxyComponents",
+    "label": "Galaxy Components",
+    "description": "A library full of great things.",
+    "entryPoint": "src/index.tsx",
+    "outputPath": "dist"
+  }
+}

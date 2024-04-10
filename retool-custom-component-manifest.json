@@ -1,0 +1,12 @@
+{
+  "customComponentSupportVersion": "2",
+  "components": {
+    "HelloWord": {
+      "name": "Hello Word",
+      "model": [],
+      "events": [],
+      "defaultHeight": 5,
+      "defaultWidth": 2
+    }
+  }
+}
