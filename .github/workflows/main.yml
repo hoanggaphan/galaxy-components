@@ -27,11 +27,8 @@ jobs:
           sleep 1;
           echo "${{secrets.SUB_DOMAIN}}";
           sleep 1;
-          echo "";
-          sleep 1;
           echo "${{secrets.RETOOL_CUSTOM_COMPONENT_TOKEN}}";
           sleep 1;
-          echo "";
         } | npx retool-ccl login
 
     - name: Deploy to Retool
