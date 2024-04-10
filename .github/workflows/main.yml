@@ -28,6 +28,7 @@ jobs:
           echo "${{secrets.SUB_DOMAIN}}";
           sleep 1;
           echo "";
+          sleep 1;
           echo "${{secrets.RETOOL_CUSTOM_COMPONENT_TOKEN}}";
           sleep 1;
           echo "";
