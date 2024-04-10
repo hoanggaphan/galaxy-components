@@ -21,3 +21,4 @@ dist/
 !.env.project
 !.env.vault
 !.env.example
+!.env.development.example
