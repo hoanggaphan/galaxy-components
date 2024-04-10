@@ -23,7 +23,7 @@ jobs:
           echo "${{secrets.SUB_DOMAIN}}";
           sleep 1;
           echo "";
-          echo "${{secrets.CUSTOM_COMPONENT_TOKEN}}";
+          echo "${{secrets.RETOOL_CUSTOM_COMPONENT_TOKEN}}";
           sleep 1;
           echo "";
         } | npx retool-ccl login
