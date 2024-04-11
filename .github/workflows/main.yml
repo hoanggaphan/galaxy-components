@@ -27,6 +27,7 @@ jobs:
     - name: Login to Retool
       run: |
         {
+          sleep 1;
           echo "";
           sleep 1;
           echo "${{secrets.SUB_DOMAIN}}";
