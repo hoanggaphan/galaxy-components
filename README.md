@@ -26,11 +26,15 @@ or
 ## Shared environment variables
 
 To run this project you will need to add the following environment variables to your *.env.development*\
-**Note: these variables are taken from general's retool**
+**Note: These variables are shared so must have the same value between developers**
 
-`SUB_DOMAIN`
+`RETOOL_SUB_DOMAIN`
 
 `RETOOL_CUSTOM_COMPONENT_TOKEN`
+
+`RETOOL_CUSTOM_COMPONENT_LABEL`
+
+`RETOOL_CUSTOM_COMPONENT_DESCRIPTION`
 
 
 ## Run Locally
